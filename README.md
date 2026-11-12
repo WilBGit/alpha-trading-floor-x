@@ -1,5 +1,7 @@
 # Alpha Trading Floor X Auto Content Publisher
 
+[![CI](https://github.com/WilBGit/alpha-trading-floor-x/actions/workflows/ci.yml/badge.svg)](https://github.com/WilBGit/alpha-trading-floor-x/actions/workflows/ci.yml)
+
 A small, auditable publication boundary for Alpha Trading Floor posts on X. Drafting and market research happen outside this repository. This project accepts a completed post, proofreads it, applies duplicate and cadence controls, verifies the authenticated X identity, and only then calls the X API v2 publishing endpoint.
 
 ## What is included
