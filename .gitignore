@@ -1,0 +1,21 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*token*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OAuth and runtime state
+*.json
+!.github/**/*.json
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+state/
+logs/
